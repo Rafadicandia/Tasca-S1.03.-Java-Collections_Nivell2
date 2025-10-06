@@ -1,10 +1,12 @@
-import java.util.HashSet;
+
+import java.util.Set;
+import java.util.TreeSet;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        HashSet <Restaurant> newRestaurantList= new HashSet<>();
+        Set<Restaurant> newRestaurantSet = new TreeSet<>();
 
         Restaurant pepito = new Restaurant("Pepito", 5);
         Restaurant manolito = new Restaurant("Manolito", 3);
@@ -13,16 +15,16 @@ public class Main {
         Restaurant pepito3 = new Restaurant("Pepito", 5);
 
 
-        newRestaurantList.add(pepito);
-        newRestaurantList.add(pepito2);
-        newRestaurantList.add(manolito);
-        newRestaurantList.add(chiringuito);
+        newRestaurantSet.add(pepito);
+        newRestaurantSet.add(pepito2);
+        newRestaurantSet.add(manolito);
+        newRestaurantSet.add(chiringuito);
 
 
 
-        System.out.println("The list of total restaurants is: "+newRestaurantList.size());
+        System.out.println("The list of total restaurants is: "+newRestaurantSet.size());
 
-        for (Restaurant r : newRestaurantList) {
+        for (Restaurant r : newRestaurantSet) {
             System.out.println(r);
         }
 
