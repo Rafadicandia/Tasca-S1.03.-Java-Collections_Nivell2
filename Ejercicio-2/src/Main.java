@@ -14,21 +14,16 @@ public class Main {
         Restaurant chiringuito = new Restaurant("El chiringuito de Carlitos", 1);
         Restaurant pepito3 = new Restaurant("Pepito", 5);
 
-
         newRestaurantSet.add(pepito);
         newRestaurantSet.add(pepito2);
         newRestaurantSet.add(manolito);
         newRestaurantSet.add(chiringuito);
-
-
 
         System.out.println("The list of total restaurants is: "+newRestaurantSet.size());
 
         for (Restaurant r : newRestaurantSet) {
             System.out.println(r);
         }
-
-
 
     }
 }
