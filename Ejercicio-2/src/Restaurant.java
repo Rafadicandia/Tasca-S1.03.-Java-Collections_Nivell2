@@ -55,6 +55,11 @@ public class Restaurant implements Comparable<Restaurant> {
         return other.punctuation - this.punctuation;
     }
 
+    @Override
+    public String toString() {
+        return "Restaurant [Name: " + name + ", Punctuation: " + punctuation + "]";
+    }
+
 
 
 }

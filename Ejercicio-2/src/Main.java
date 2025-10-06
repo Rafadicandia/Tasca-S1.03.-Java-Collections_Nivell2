@@ -23,7 +23,7 @@ public class Main {
         System.out.println("The list of total restaurants is: "+newRestaurantList.size());
 
         for (Restaurant r : newRestaurantList) {
-            System.out.println(r.getName()+"-"+"Puntuation: "+r.getPunctuation());
+            System.out.println(r);
         }
 
 
