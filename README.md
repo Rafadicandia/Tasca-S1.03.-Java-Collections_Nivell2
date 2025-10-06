@@ -43,7 +43,7 @@ Important
 
 
 ```bash
-git clone https://github.com/Rafadicandia/Tasca-S1.02.-Exceptions-Nivell2.git
+git clone https://github.com/Rafadicandia/Tasca-S1.03.-Java-Collections_Nivell2.git
 ```
 
 - IDE Configuration:
