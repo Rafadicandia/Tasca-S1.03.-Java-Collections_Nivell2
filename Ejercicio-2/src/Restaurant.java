@@ -57,7 +57,7 @@ public class Restaurant implements Comparable<Restaurant> {
 
         int comparacionNombre = this.name.compareTo(other.name);
 
-       
+
         if (comparacionNombre != 0) {
             return comparacionNombre;
         }
