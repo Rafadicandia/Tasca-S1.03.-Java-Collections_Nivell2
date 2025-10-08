@@ -17,6 +17,7 @@ public class Main {
         newRestaurantList.add(pepito2);
         newRestaurantList.add(manolito);
         newRestaurantList.add(chiringuito);
+        newRestaurantList.add(pepito3);
 
         System.out.println("The list of total restaurants is: "+newRestaurantList.size());
 
