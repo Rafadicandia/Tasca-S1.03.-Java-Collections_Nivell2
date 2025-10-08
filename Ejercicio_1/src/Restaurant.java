@@ -5,6 +5,16 @@ public class Restaurant {
     private  int punctuation;
 
     public Restaurant (String name, int punctuation){
+        if (name==(null)){
+            throw new IllegalArgumentException("The name of the restaurant can't be null");
+        }
+
+        if (name.isBlank()){
+            throw new IllegalArgumentException("The name of the restaurant can't be empty");
+        }
+        if (punctuation<0){
+            throw new IllegalArgumentException("The punctuation can't be lower than 0");
+        }
         this.name=name;
         this.punctuation=punctuation;
     }
