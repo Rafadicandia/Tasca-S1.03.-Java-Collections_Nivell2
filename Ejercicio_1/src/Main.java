@@ -8,7 +8,7 @@ public class Main {
 
         Restaurant pepito = new Restaurant("Pepito", 5);
         Restaurant manolito = new Restaurant("Manolito", 3);
-        Restaurant pepito2 = new Restaurant("Pepito", 3);
+        Restaurant pepito2 = new Restaurant("Pepito", 5);
         Restaurant chiringuito = new Restaurant("El chiringuito de Carlitos", 1);
         Restaurant pepito3 = new Restaurant("Pepito", 5);
 
